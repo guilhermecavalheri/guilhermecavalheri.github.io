@@ -8,9 +8,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Guilherme Cavalheri</title>
     <meta name="description" content="{{ site.data.site.hero.description }}">
-    <link rel="stylesheet" href="/assets/css/custom.css">
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/custom.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-    <link rel="icon" type="image/svg+xml" href="/assets/images/favicon.svg">
+    <link rel="icon" type="image/svg+xml" href="{{ site.baseurl }}/assets/images/favicon.svg">
 </head>
 
 <body>
@@ -35,15 +35,15 @@
                         <i class="fab fa-github"></i>
                         <span>GitHub</span>
                     </a>
-                    <a href="projects.html" class="social-btn-small">
+                    <a href="{{ site.baseurl }}/projects.html" class="social-btn-small">
                         <i class="fas fa-folder-open"></i>
                         <span>Projetos</span>
                     </a>
                 </div>
             </div>
             <div class="profile-photo-container">
-                <img src="{{ site.data.site.hero.photo }}" alt="{{ site.data.site.hero.name }}" class="profile-photo"
-                    onerror="this.style.display='none'">
+                <img src="{{ site.baseurl }}{{ site.data.site.hero.photo }}" alt="{{ site.data.site.hero.name }}"
+                    class="profile-photo" onerror="this.style.display='none'">
             </div>
         </div>
     </section>

@@ -4,8 +4,8 @@ email: guilhermeccavalheri@outlook.com
 description: >-
   Especialista em Data Science, Analytics e Machine Learning. Transformando dados 
   complexos em eficiência operacional na maior operadora ferroviária do Brasil.
-baseurl: # the subpath of your site, e.g. /blog
-url: "https://guilhermecavalheri.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # deixe vazio para user site
+url: "https://guilherme-cavalheri.github.io"
 
 # Social
 linkedin_username: guilherme-cavalheri
